@@ -2,11 +2,11 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-  '', // Database name
-  '', // User
-  '', // Password
+  'mansour', // Database name
+  'mansouruser', // User
+  'IClq55N9bYkisNwG98hYl2Zy9I2HmqzR', // Password
   {
-    host: '', // Host
+    host: 'dpg-ck9d0fv0vg2c73d0uvjg-a', // Host
     dialect: 'postgres',
     dialectOptions: {
       ssl: {
